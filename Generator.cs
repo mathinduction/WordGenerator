@@ -55,7 +55,7 @@ namespace WordGenerator
 			{
 				double p = rand.NextDouble();
 
-				for (int i = 1; i < _probability.Count; i++)
+				for (int i = 0; i < _probability.Count; i++)
 				{
 					if (_probability[i] >= p)
 					{
